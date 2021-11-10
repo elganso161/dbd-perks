@@ -2,11 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px;
   li {
     max-width: 100px;
     height: 150px;
     margin: 0 auto;
+    font-size: 14px;
     img {
       max-width: 100%;
     }
@@ -14,4 +14,18 @@
       text-align: center;
     }
   }
+}
+
+.back__link {
+  text-decoration: none;
+  font-size: 24px;
+  color: #ececec;
+  width: 100px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ececec;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
