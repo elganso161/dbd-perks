@@ -1,17 +1,52 @@
+.description {
+  margin-bottom: 20px;
+  p {
+    text-align: left;
+  }
+}
+
 .table {
-	width: 100%;
-	margin-bottom: 20px;
-	border: 1px solid #dddddd;
-	border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
 }
 .table th {
-	font-weight: bold;
-	padding: 5px;
-	// background: #efefef;
-	border: 1px solid #dddddd;
+  font-weight: bold;
+  padding: 5px;
+  // background: #efefef;
+  border: 1px solid #dddddd;
 }
 .table td {
-	border: 1px solid #dddddd;
-	padding: 5px;
+  border: 1px solid #dddddd;
+  padding: 5px;
   text-align: center;
+}
+
+.th-one {
+  color: rgb(232, 194, 82);
+}
+
+.th-two {
+  color: rgb(60, 179, 113);
+}
+
+.th-three {
+  color: rgb(145, 44, 238);
+}
+
+.feature {
+  margin-bottom: 20px;
+  li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}
+
+.note {
+  margin-bottom: 20px;
+  li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
 }
