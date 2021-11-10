@@ -9,7 +9,7 @@ let survivorArr = [
   {
     image: "./img/survivor/s2.png",
     title: "Спокойствие духа",
-    link: "#",
+    link: "./survivors-skills-pages/s2.html",
   },
   {
     image: "./img/survivor/s3.png",
@@ -419,6 +419,76 @@ let survivorArr = [
   {
     image: "./img/survivor/s84.png",
     title: "Дар: уход в тень",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s85.png",
+    title: "Темное чувство",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s86.png",
+    title: "Дежавю",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s87.png",
+    title: "Надежда",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s88.png",
+    title: "Кровные узы",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s89.png",
+    title: "Легковес",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s90.png",
+    title: "Этому не бывать",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s91.png",
+    title: "Мы справимся",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s92.png",
+    title: "Предчувствие",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s93.png",
+    title: "Устойчивость",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s94.png",
+    title: "Скользкое мясо",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s95.png",
+    title: "Мелкая дичь",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s96.png",
+    title: "Мурашки по спине",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s97.png",
+    title: "Никто не остался позади",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s98.png",
+    title: "Мародерское чутье",
     link: "#",
   },
 ];
