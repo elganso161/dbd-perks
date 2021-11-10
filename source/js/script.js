@@ -1,10 +1,10 @@
 const listSurvivor = document.querySelector(".survivor__list");
 
-const survivorArr = [
+let survivorArr = [
   {
     image: "./img/survivor/s1.png",
     title: "Связь",
-    link: "#",
+    link: "./survivors-skills-pages/s1.html",
   },
   {
     image: "./img/survivor/s2.png",
@@ -31,13 +31,65 @@ const survivorArr = [
     title: "Прояви себя",
     link: "#",
   },
+  {
+    image: "./img/survivor/s7.png",
+    title: "Железная воля",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s8.png",
+    title: "Городской бег",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s9.png",
+    title: "Повысить ставки",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s10.png",
+    title: "Сострадание",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s11.png",
+    title: "Лидер",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s12.png",
+    title: "Крушитель",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s13.png",
+    title: "Уроки улиц",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s14.png",
+    title: "Игра в открытую",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s15.png",
+    title: "Сам себе доктор",
+    link: "#",
+  },
+  {
+    image: "./img/survivor/s16.png",
+    title: "Адреналин",
+    link: "#",
+  },
 ];
 
-listSurvivor.innerHTML += survivorArr.map(
-  (elem) => `<li>
+listSurvivor.innerHTML += survivorArr
+  .map(
+    (elem) => `<li>
           <a href="${elem.link}"
             ><img src="${elem.image}" alt="perk"
           /></a>
           <p>${elem.title}</p>
         </li>`
-);
+  )
+  .join("");
