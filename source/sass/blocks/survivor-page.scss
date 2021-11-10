@@ -1,0 +1,16 @@
+.survivor__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  li {
+    max-width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    img {
+      max-width: 100%;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
