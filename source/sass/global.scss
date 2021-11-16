@@ -6,6 +6,9 @@ body {
   background-color: #232224;
   font-size: 18px;
   text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 html {

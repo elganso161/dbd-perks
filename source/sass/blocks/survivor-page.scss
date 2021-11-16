@@ -1,15 +1,24 @@
 .survivor__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
   li {
-    max-width: 100px;
-    height: 150px;
-    margin: 0 auto;
+    max-width: 120px;
+    height: 170px;
     font-size: 14px;
+    border: 1px solid #4d4b4b;
+    padding: 5px;
+    background-color: rgb(27, 26, 26);
+    transition: 0.2s;
+    &:active {
+      opacity: 0.5;
+    }
+
     img {
       max-width: 100%;
     }
+
     p {
       text-align: center;
     }
